@@ -1,0 +1,13 @@
+{
+  "name": "2026-holiday-mobile-one-screen-review",
+  "version": "1.0.0",
+  "status": "review",
+  "images": [
+    {"order": 1, "name": "折返路线", "image": "01-serpentine.png", "source": "01-serpentine.svg"},
+    {"order": 2, "name": "回环双路线", "image": "02-loop.png", "source": "02-loop.svg"},
+    {"order": 3, "name": "编号矩阵", "image": "03-matrix.png", "source": "03-matrix.svg"}
+  ],
+  "flowSource": "flowchart.mmd",
+  "render": "SVG authored for exact phone-sized layout; PNG exported from SVG",
+  "note": "Full URLs are in README.md"
+}
