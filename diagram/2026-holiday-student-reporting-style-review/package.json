@@ -1,0 +1,21 @@
+{
+  "name": "2026-holiday-student-reporting-style-review",
+  "version": "1.0.0",
+  "format": "wechat-notice-diagram-style-review",
+  "purpose": "Compare three representations of the same step-by-step reporting process before changing the skill mode.",
+  "variants": [
+    {"order": 1, "style": "纵向步骤卡", "source": "style-01-vertical-cards.mmd", "image": "style-01-vertical-cards.png"},
+    {"order": 2, "style": "双泳道时间线", "source": "style-02-swimlanes.mmd", "image": "style-02-swimlanes.png"},
+    {"order": 3, "style": "选择分支流程", "source": "style-03-decision-flow.mmd", "image": "style-03-decision-flow.png"}
+  ],
+  "summary": {"source": "summary.mmd", "image": "summary.png"},
+  "templateDemo": {"template": "comprehensive_overview", "source": "comprehensive-overview.mmd", "image": "comprehensive-overview.png"},
+  "facts": {
+    "电脑端步骤": 4,
+    "移动端步骤": 5,
+    "电脑端入口": "智慧学工（二期），建议使用 Chrome，完整网址为 https://xgxt.scnu.edu.cn/newservice/fe/site/workHome",
+    "移动端入口": "企业微信工作台→智慧学工→二期测试",
+    "共同结果": "如实填写离返校信息"
+  },
+  "reviewStatus": "三种布局均可用；已将多步骤布局与完整 URL 规则写入 wechat-notice-diagram skill"
+}

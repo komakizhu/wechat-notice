@@ -10,7 +10,7 @@
 
 智慧学工（二期）电脑端完整网址：<https://xgxt.scnu.edu.cn/newservice/fe/site/workHome>。通知来源：<http://xsb.scnu.edu.cn/a/20260922/6215.html>。这两个完整链接放在配套文字中，图片内不显示半截链接。
 
-审查依据为用户提供的原通知。尚未选定最终模板，也未修改 `notice-diagram` skill。
+审查依据为用户提供的原通知。此组布局仍是审查稿，后续确定的视觉样式规则已写入 `wechat-notice-diagram` skill。
 
 ## 第一版布局的视觉样式
 

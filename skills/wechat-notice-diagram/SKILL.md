@@ -1,7 +1,7 @@
 ---
-name: notice-diagram
+name: wechat-notice-diagram
 description: "Use when a notification, SOP, or task summary needs a concise Mermaid flowchart and a mobile-readable summary image."
-version: 0.3.2
+version: 0.3.3
 ---
 
 # 通知流程图子 Skill

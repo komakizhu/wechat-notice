@@ -1,0 +1,27 @@
+{
+  "name": "2026-holiday-student-reporting-flow",
+  "version": "1.0.0",
+  "format": "wechat-notice-diagram",
+  "source": "关于做好2026年中秋节、国庆节假期学生管理工作的通知",
+  "chapters": [
+    {"order": 1, "title": "一页总览", "source": "flowchart.mmd", "image": "flowchart.png"},
+    {"order": 2, "title": "办理细节：电脑端", "source": "flowchart-02-details.mmd", "image": "flowchart-02-details.png"},
+    {"order": 3, "title": "办理细节：移动端", "source": "flowchart-03-mobile.mmd", "image": "flowchart-03-mobile.png"},
+    {"order": 4, "title": "提醒与审核", "source": "flowchart-04-reminders.mmd", "image": "flowchart-04-reminders.png"}
+  ],
+  "summary": {"source": "summary.mmd", "image": "summary.png"},
+  "facts": {
+    "对象": "学生",
+    "事项": "节假日离校报备",
+    "材料": "未说明",
+    "截止": "放假前，具体时刻未说明",
+    "提交方式": "智慧学工（二期）电脑端或企业微信移动端",
+    "班级统一收交": "未说明",
+    "来源": "http://xsb.scnu.edu.cn/a/20260922/6215.html",
+    "待确认项": ["具体截止时刻未说明"]
+  },
+  "render": {
+    "engine": "@mermaid-js/mermaid-cli with local Google Chrome",
+    "status": "rendered"
+  }
+}
