@@ -124,6 +124,7 @@ src/wechat_notice/material_reader.py 网页/公众号正文及图片 OCR
 src/wechat_notice/notice_package.py  事实到通知包、章节 Mermaid 和图稿
 src/wechat_notice/monitor.py         稳定消息标识增量监控
 skills/wechat-notice/SKILL.md          Codex 通知处理 Skill
+skills/wechat-notice-lite/SKILL.md     通知润色子 Skill，可独立润色用户提供的通知
 skills/wechat-notice-diagram/SKILL.md  Mermaid 流程图与省流图片子 Skill
 tests/                              不依赖微信的离线回归测试
 data/                               运行时原件、批次和 SQLite（默认不入 Git）
