@@ -1,0 +1,20 @@
+{
+  "source_group": "上级通知大群",
+  "read_complete": false,
+  "stop_reason": "simulated_current_view_only",
+  "cursor": {"window": "simulated-001"},
+  "messages": [
+    {
+      "local_id": "visible-001",
+      "sequence": 10,
+      "text": "请各班汇总名单，截止 9 月 20 日。",
+      "metadata": {"stable_id": "sim-wechat-001"}
+    },
+    {
+      "local_id": "visible-002",
+      "sequence": 11,
+      "text": "附件见上方。",
+      "metadata": {"stable_id": "sim-wechat-002"}
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "collection_advance_days": 2,
+    "show_original_deadline": false,
+    "reminder_offsets": [2, 1],
+    "timezone": "Asia/Shanghai",
+    "reminder_time": "09:00",
+    "use_working_days": false
+  },
+  "notices": [
+    {
+      "notice_id": "sim-class-collection",
+      "title": "实验报告与汇总表收集",
+      "item_type": "class_collection",
+      "audience": "各小组组长",
+      "task": "提交实验报告并填写班级汇总表",
+      "materials": ["实验报告.pdf", "实验报告汇总表.xlsx"],
+      "steps": ["核对组员信息", "填写汇总表", "将两份文件一起发给学习委员"],
+      "submission_method": "发给学习委员",
+      "collection_required": true,
+      "original_deadline": "2026-09-20",
+      "attachment_names": ["实验报告模板.pdf", "实验报告汇总表.xlsx"],
+      "source_message_ids": ["sim-m-001", "sim-m-002"],
+      "notes": ["文件名请按‘组号-主题’命名"],
+      "source_urls": ["https://example.org/lab-template"]
+    },
+    {
+      "notice_id": "sim-personal-registration",
+      "title": "英语考试报名",
+      "item_type": "personal_submission",
+      "audience": "需要参加英语考试的同学",
+      "task": "完成个人报名并确认报名信息",
+      "materials": ["本人证件信息"],
+      "steps": ["打开报名入口", "核对姓名和证件号", "提交后保存回执"],
+      "submission_method": "通过报名链接自行提交",
+      "collection_required": false,
+      "original_deadline": "2026-10-01",
+      "source_message_ids": ["sim-m-003"],
+      "source_urls": ["https://example.org/english-registration"],
+      "notes": ["这是个人直接报名，班级不代收材料"]
+    },
+    {
+      "notice_id": "sim-correction",
+      "title": "运动会报名信息更正",
+      "item_type": "supplement_and_correction",
+      "audience": "已报名运动会项目的同学",
+      "task": "核对项目并在有变更时提交更正",
+      "materials": ["公众号图片 OCR：项目调整及更正入口", "原报名信息"],
+      "steps": ["查看公众号图片中的项目调整", "核对自己的原报名信息", "仅在有变化时提交更正"],
+      "submission_method": "在更正表单中提交",
+      "collection_required": false,
+      "original_deadline": "2026-09-25",
+      "source_message_ids": ["sim-m-004", "sim-m-005"],
+      "source_urls": ["https://mp.weixin.qq.com/s/simulated-article"],
+      "decision_points": [
+        {
+          "question": "项目是否发生变化？",
+          "yes": "填写更正表单",
+          "no": "无需重复提交"
+        }
+      ],
+      "notes": ["sim-m-005 明确是对 sim-m-004 的补充更正"],
+      "uncertainties": ["公众号图片 OCR 结果需在真实样本中人工抽查"]
+    }
+  ]
+}

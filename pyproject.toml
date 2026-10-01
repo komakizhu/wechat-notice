@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wechat-notice"
+version = "0.1.0"
+description = "半自动微信群通知整理、审核和提醒工具"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+documents = [
+  "pypdf>=5.0",
+  "python-docx>=1.1",
+  "openpyxl>=3.1",
+  "python-pptx>=1.0",
+]
+macos = [
+  "pyobjc>=12.1",
+  "pyobjc-framework-ApplicationServices>=12.1",
+  "pillow>=10.0",
+]
+mcp = ["mcp>=1.0,<2"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+wechat-notice = "wechat_notice.cli:main"
+wechat-notice-mcp = "wechat_notice.wechat_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

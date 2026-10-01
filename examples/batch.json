@@ -1,0 +1,25 @@
+{
+  "batch_id": "batch-example-001",
+  "source_group": "上级通知大群",
+  "read_complete": false,
+  "read_stop_reason": "manual_import",
+  "messages": [
+    {
+      "local_id": "manual-001",
+      "sequence": 0,
+      "text": "请各班汇总名单，附件见下方。",
+      "message_type": "text",
+      "sender": null,
+      "timestamp": null,
+      "attachment_ids": ["attachment-001"]
+    }
+  ],
+  "attachments": [
+    {
+      "attachment_id": "attachment-001",
+      "source_message_id": "manual-001",
+      "original_name": "名单模板.xlsx",
+      "source_path": "/absolute/path/to/名单模板.xlsx"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "batch_id": "batch-example-001",
+  "notice_id": "notice-example-001",
+  "title": "汇总名单",
+  "source_message_ids": ["manual-001"],
+  "attachment_ids": ["attachment-001"],
+  "collection_required": true,
+  "original_deadline": "2026-09-20",
+  "submission_method": "交给班长",
+  "target_group": "班级群"
+}
