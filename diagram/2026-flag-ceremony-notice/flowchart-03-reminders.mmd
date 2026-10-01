@@ -1,0 +1,14 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#FAF7F0","fontFamily":"PingFang SC, Noto Sans SC, sans-serif","fontSize":"20px","primaryColor":"#FFFCF7","primaryTextColor":"#34312F","primaryBorderColor":"#AA6249","lineColor":"#AA6249","secondaryColor":"#F2E3DA","tertiaryColor":"#F5EEE4"}}}%%
+flowchart TB
+  heading["提醒与审核"]
+  heading --> attire["着装：统一院服上装，黑色下装"]
+  heading --> attendance["到点请准时到达；各年级班长负责各班考勤"]
+  heading --> leave["如需请假：提前提交纸质版假条<br/>至赵老师办公室（607）；具体提前时长未说明"]
+  heading --> positions["各年级位置：原文提示查看图片；图片未提供，具体位置待补充"]
+  heading --> source["来源：用户提供通知文字，无原文链接可核对<br/>落款：科学技术与社会研究院，2026年9月28日"]
+  attire --> review["核对后办理"]
+  attendance --> review
+  leave --> review
+  positions --> review
+  source --> review
+  review --> send["用户审核后转发"]

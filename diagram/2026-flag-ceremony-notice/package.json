@@ -1,0 +1,59 @@
+{
+  "name": "2026-flag-ceremony-notice",
+  "format": "wechat-notice-diagram",
+  "source": "用户提供的通知文字；原文无 HTTP(S) 链接",
+  "chapters": [
+    {
+      "order": 1,
+      "title": "一页总览",
+      "source": "flowchart.mmd",
+      "image": "flowchart.png"
+    },
+    {
+      "order": 2,
+      "title": "办理细节：升旗礼仪式流程",
+      "source": "flowchart-02-details.mmd",
+      "image": "flowchart-02-details.png"
+    },
+    {
+      "order": 3,
+      "title": "提醒与审核",
+      "source": "flowchart-03-reminders.mmd",
+      "image": "flowchart-03-reminders.png"
+    }
+  ],
+  "summary": {
+    "source": "summary.mmd",
+    "image": "summary.png"
+  },
+  "facts": {
+    "对象": "学院升旗礼活动参与对象范围未说明",
+    "事项": "升旗礼活动",
+    "材料": "未说明",
+    "集合时间": "2026年10月1日（周四）6:50集合完毕",
+    "地点": "大学城行政楼前广场",
+    "步骤": [
+      "迎国旗奏唱国歌——国护队",
+      "主持人开场",
+      "环境学院环境学院2026级新生合唱《保卫黄河》《军中绿花》",
+      "② 科学技术与社会研究院学生朗诵《青春中国》",
+      "③ 环境学院党委书记陈必华老师讲话",
+      "④ 拍大合照"
+    ],
+    "提交方式": "活动提交方式未说明；请假须提前提交纸质版假条至赵老师办公室（607）",
+    "班级统一收交": "未说明；各年级班长负责各班考勤",
+    "来源": "用户提供的通知文字；无原文链接可核对",
+    "待确认项": [
+      "各年级位置图片未提供，具体站位未说明",
+      "请假需提前的具体时长未说明",
+      "活动参与对象范围未说明",
+      "活动所需材料及活动提交方式未说明",
+      "节目①原文“环境学院”重复两次，图中保留原句，可能需要确认是否为文字重复"
+    ]
+  },
+  "render": {
+    "engine": "Local Pillow fallback renderer",
+    "mermaid_cli": "unavailable; npm exec failed with ENOENT while unpacking package dependencies",
+    "status": "rendered_with_local_fallback"
+  }
+}
